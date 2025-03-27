@@ -32,6 +32,26 @@ def store_result():
 
     return jsonify({"message": "Result stored successfully!"}), 201
 
+# Image Upload Route
+@app.route('/upload_image', methods=['POST'])
+def upload_image():
+    if 'image' not in request.files:
+        return jsonify({"error": "No image file provided"}), 400
+
+    image = request.files['image']
+    if image.filename == '':
+        return jsonify({"error": "No selected file"}), 400
+
+    image_path = os.path.join(app.config['UPLOAD_FOLDER'], image.filename)
+    image.save(image_path)
+
+    return jsonify({"message": "Upload successful", "image_url": f"/images/{image.filename}"}), 201
+
+# Serve Uploaded Images
+@app.route('/images/<filename>')
+def get_image(filename):
+    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
+
 # Video Upload Route
 @app.route('/upload_video', methods=['POST'])
 def upload_video():
