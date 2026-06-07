@@ -1,0 +1,304 @@
+{
+  "timestamp": "2026-02-10T10:41:34.779172",
+  "test_set": {
+    "real_images": 19,
+    "fake_images": 20,
+    "total_images": 39
+  },
+  "confusion_matrix": {
+    "true_positives": 16,
+    "true_negatives": 17,
+    "false_positives": 2,
+    "false_negatives": 4
+  },
+  "metrics": {
+    "accuracy": 84.62,
+    "precision": 88.89,
+    "recall": 80.0,
+    "f1_score": 84.21,
+    "avg_confidence": 83.5
+  },
+  "per_method_accuracy": {
+    "Secondary detector (98.2% acc)": 48.72,
+    "Frequency Analysis": 48.72,
+    "ELA Analysis": 51.28,
+    "Noise Analysis": 61.54,
+    "Color Analysis": 48.72,
+    "Metadata Analysis": 97.44
+  },
+  "detailed_results": [
+    {
+      "image": "IMG_20250818_143831.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 82.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250818_144458.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 88.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250818_153617.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 78.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250818_173037.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 88.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250818_182853.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 88.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250819_115509.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 81.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250821_142100.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 72.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250821_142814.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 81.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250824_171730.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 78.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250824_172108.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 78.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250824_174429.jpg",
+      "true_label": "real",
+      "predicted": "fake",
+      "confidence": 85.32281764348348,
+      "correct": false
+    },
+    {
+      "image": "IMG_20250824_183309.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 82.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250824_183353.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 78.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250824_225458.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 72.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250829_173222.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 84.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250908_115649.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 93.3997414112091,
+      "correct": true
+    },
+    {
+      "image": "IMG_20250923_153015.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 72.5,
+      "correct": true
+    },
+    {
+      "image": "IMG_20251009_202020.jpg",
+      "true_label": "real",
+      "predicted": "real",
+      "confidence": 92.5,
+      "correct": true
+    },
+    {
+      "image": "InShot_20251031_095200807.jpg",
+      "true_label": "real",
+      "predicted": "fake",
+      "confidence": 92.08333333333333,
+      "correct": false
+    },
+    {
+      "image": "fake_img_1.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 85.0337266921997,
+      "correct": true
+    },
+    {
+      "image": "fake_img_10.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 79.15044228235881,
+      "correct": true
+    },
+    {
+      "image": "fake_img_11.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 83.32802653312683,
+      "correct": true
+    },
+    {
+      "image": "fake_img_12.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 79.8715074857076,
+      "correct": true
+    },
+    {
+      "image": "fake_img_13.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 82.47681856155396,
+      "correct": true
+    },
+    {
+      "image": "fake_img_14.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 84.90495880444844,
+      "correct": true
+    },
+    {
+      "image": "fake_img_15.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 81.32355213165283,
+      "correct": true
+    },
+    {
+      "image": "fake_img_16.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 94.7873392701149,
+      "correct": true
+    },
+    {
+      "image": "fake_img_17.jpg",
+      "true_label": "fake",
+      "predicted": "real",
+      "confidence": 80.27748203277588,
+      "correct": false
+    },
+    {
+      "image": "fake_img_18.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 83.03980032602946,
+      "correct": true
+    },
+    {
+      "image": "fake_img_19.jpg",
+      "true_label": "fake",
+      "predicted": "real",
+      "confidence": 74.75,
+      "correct": false
+    },
+    {
+      "image": "fake_img_2.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 95.0,
+      "correct": true
+    },
+    {
+      "image": "fake_img_20.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 95.0,
+      "correct": true
+    },
+    {
+      "image": "fake_img_3.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 80.92195987701416,
+      "correct": true
+    },
+    {
+      "image": "fake_img_4.jpg",
+      "true_label": "fake",
+      "predicted": "real",
+      "confidence": 71.01019549369812,
+      "correct": false
+    },
+    {
+      "image": "fake_img_5.jpg",
+      "true_label": "fake",
+      "predicted": "real",
+      "confidence": 77.75,
+      "correct": false
+    },
+    {
+      "image": "fake_img_6.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 86.31903131802876,
+      "correct": true
+    },
+    {
+      "image": "fake_img_7.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 95.0,
+      "correct": true
+    },
+    {
+      "image": "fake_img_8.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 95.0,
+      "correct": true
+    },
+    {
+      "image": "fake_img_9.jpg",
+      "true_label": "fake",
+      "predicted": "fake",
+      "confidence": 78.75,
+      "correct": true
+    }
+  ]
+}
